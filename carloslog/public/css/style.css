@@ -1,7 +1,58 @@
+/* General */
+
 *{
     font-family: Roboto;
 }
 
+
+body { 
+    min-height: 100vh;
+    padding-bottom:100px;
+    position:relative;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+.row{
+    margin:0;
+}
+
+/*Navbar*/
+
+
 #navbar img{
     width: 200px;
+}
+
+#navbar{
+    justify-content:space-between;  
+    background-color: #fff;
+    padding: 5px 0;
+    height: 100px;
+}
+
+#navbar a {
+    font-size: 14px;
+    color:#757575 ;
+
+}
+
+#navbar a:hover {
+    color:#323232 ;
+    
+}
+
+.banner-container{
+    background-image: url('../img/pexels-artempodrez-5025669.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 50px;
+}
+
+.rodape-container{
+    display: flex;
+    justify-content: center;
 }

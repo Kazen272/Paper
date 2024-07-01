@@ -4,7 +4,6 @@
 
 @section('content')
 
-<h1>Olá mundo</h1>
-
+<h1>cadastro</h1>
 
 @endsection

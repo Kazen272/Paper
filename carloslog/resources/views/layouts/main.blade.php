@@ -33,17 +33,17 @@
                     </li>
                     
                     <li class="nav-item">
-                        <a href="/" class="nav-link">Entregas</a>
+                        <a href="/entregas" class="nav-link">Entregas</a>
                     </li>
 
                     
                     <li class="nav-item">
-                        <a href="/" class="nav-link">Entrar</a>
+                        <a href="/login" class="nav-link">Entrar</a>
                     </li>
 
                     
                     <li class="nav-item">
-                        <a href="/" class="nav-link">Cadastrar</a>
+                        <a href="/cadastro" class="nav-link">Cadastrar</a>
                     </li>
                 </ul>
             </div>
@@ -51,7 +51,9 @@
     </header>
     @yield('content')    
     <footer>
-        <p>CarlosLog &copy; 2024</p>
+        <div class="rodape-container">
+            <p>CarlosLog &copy; 2024</p>
+        </div>
     </footer> 
     <!-- js da aplicação -->
     <script src="/js/script.js"></script>  
