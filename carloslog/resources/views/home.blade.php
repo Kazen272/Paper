@@ -5,7 +5,6 @@
 @section('content')
 
 <div class="banner-container">
-    div.
 </div>
 
 @endsection

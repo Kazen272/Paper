@@ -4,6 +4,10 @@
 
 @section('content')
 
-<h1>Entregas</h1>
+
+@foreach ($events as $event)
+    <p>{{$event}}</p>
+@endforeach
+
 
 @endsection
