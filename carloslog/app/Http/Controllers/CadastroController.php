@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class CadastroController extends Controller
 {
     public function cadastro(){
-        return view('cadastro');
+        return view('/auth/register');
     }
 }

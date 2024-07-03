@@ -7,8 +7,8 @@ use App\Http\controllers\LoginController;
 use App\Http\controllers\CadastroController;
 
 Route::get('/', [HomeController::class, 'Home']);
-Route::get('/login', [LoginController::class, 'Login']);
-Route::get('/cadastro', [CadastroController::class, 'Cadastro']);
+Route::get('/auth/login', [LoginController::class, 'Login']);
+Route::get('/auth/register', [CadastroController::class, 'Cadastro']);
 
 
 
@@ -17,3 +17,13 @@ Route::get('/events/create',[EventController::class, 'create']);
 Route::post('/events',[EventController::class, 'store']);
 
 
+
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified',
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+});
