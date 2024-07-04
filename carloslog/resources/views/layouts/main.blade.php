@@ -26,7 +26,7 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="collapse navbar-collapse" id="navbar">
                 <a href="/" class="navbar-brand">
-                    <img src="/img/CarlosEduardo.png" alt="CarlosLog">
+                    <img src="/img/CarlosEduardo.png" id="login-logo" alt="CarlosLog">
                 </a>
                 <ul class="navbar-nav">
                     <li class="nav-item">
