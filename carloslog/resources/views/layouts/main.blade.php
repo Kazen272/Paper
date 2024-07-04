@@ -32,6 +32,8 @@
                     <li class="nav-item">
                         <a href="/" class="nav-link">Home</a>
                     </li>
+                    @auth
+                    
                     
                     <li class="nav-item">
                         <a href="/entregas" class="nav-link">Entregas</a>
@@ -40,7 +42,6 @@
                     <li class="nav-item">
                         <a href="/events/create" class="nav-link">Criar Entregas</a>
                     </li>
-                    @auth
                     
                     <li class="nav-item">
                         <a href="/dashboard" class="nav-link">Dashboard</a>
